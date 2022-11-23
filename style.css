@@ -5,10 +5,12 @@
     height: auto;
     margin: 5px;
     padding: 0;
+    position: center;
     align-items: center;
     justify-content: center;
     text-align: center;
     overflow: auto;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.5);
 }
 
 html {
@@ -25,12 +27,44 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;
 }
 
 #header {
+    width: available;
+    height: auto;
+}
 
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+}
+
+#menu, ul {
+    display: flex;
+    list-style: none;
+    width: 90%;
+}
+
+#menu, li {
+    flex-grow: 1;
+}
+
+#menu, button {
+    background-color: initial;
+    width: available;
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    font-size: 150%;
+    overflow: auto;
 }
 
 #container {
@@ -38,7 +72,9 @@ img {
 }
 
 #footer {
-
+    background-color: initial;
+    border-top-style: solid;
+    font-style: italic;
 }
 
 .book_row {
@@ -48,4 +84,7 @@ img {
 .book {
     width: available;
     flex-basis: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
