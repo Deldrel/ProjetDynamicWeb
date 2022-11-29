@@ -13,6 +13,7 @@
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.5);
 }
 
+
 html {
     box-sizing: border-box;
     width: 100%;
@@ -88,3 +89,36 @@ img {
     margin-right: 10px;
 }
 
+#middlepage {
+    padding-top: 5%;
+    height: available;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#picture1{
+    position: relative;
+    float: right;
+    border: initial;
+    height : 40% ;
+    width:available;
+}
+#picture2{
+    position: relative;
+    float: left;
+    border: initial;
+    height : 40% ;
+    width:available;
+}
+
+#wrapper {
+    position: center;
+    border: initial;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: available;
+}
